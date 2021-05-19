@@ -11,11 +11,12 @@ import ModelerPage from "./pages/ModelerPage";
 
 import FrameworksPage from "./pages/FrameworksPage";
 
+
 export default () => (
   <div>
     {/* render a navigation component */}
     <Navigation />
-    <hr />
+
     {/* render routing logic of react-router-dom */}
     <Switch>
       <Route exact path="/">

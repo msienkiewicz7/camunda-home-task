@@ -12,10 +12,12 @@ export default function ModelerPage(props) {
   React.useEffect(() => {
     // attach it to some element
     viewer.attachTo("#canvas");
+
+    return viewer.deattach
   }, []);
 
   return (
-    <div>
+    <div className='modeler-page page'>
       <h1>Modeler</h1>
       <div
         id="canvas"

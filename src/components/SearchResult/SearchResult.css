@@ -1,0 +1,13 @@
+.single-search-result {
+    /* background-color: aqua; */
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.single-search-result:hover {
+    background-color: rgba(0, 0, 255, 0.05);
+
+}
